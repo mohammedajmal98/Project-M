@@ -1,0 +1,29 @@
+body{
+    position:relative; /*relative- parent & absolute-child*/
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border: 15px solid black;
+    border-radius: 50%;
+    position:absolute;
+    top: 150px;
+}
+
+.one{
+    left: 350px;
+}
+
+.two{
+    left: 450px;
+}
+
+.three{
+    left: 550px;
+}
+
+.four{
+    left: 650px;
+}
+

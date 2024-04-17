@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    height: 130px;
+    background-color: red;
+    border-radius: 35px;
+
+    position: absolute;
+    left: 150px;
+    top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle{
+
+    border-top: 20px solid blue ;
+    border-left: 50px solid white;
+    border-bottom: 20px solid green;
+    
+
+}

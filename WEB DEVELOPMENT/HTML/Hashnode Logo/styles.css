@@ -1,0 +1,21 @@
+.logo{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 150px 0 0 400px;
+
+    border-radius: 55px;
+    rotate: 45deg;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 100%;
+}

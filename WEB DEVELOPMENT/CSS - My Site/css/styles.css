@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    /* to undo the browser default margin of "8"*/
+    text-align: center;
+    /*Make all contents(block & inline-block elements) center 
+    font-family: 'Merriweather', serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: #40514E;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    /* to undo the browser default margin of "21"*/
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;   /* 1 em/rem = 16px; 64px/16px= 4rem ---> rem is preferrable than em, %, px */
+    color: #66bfbf;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    color: #66bfbf;
+    font-weight: normal; /*line-height:2; --- is used for line spacing ("1" is default) */
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #66bfbf;
+}
+
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+    /*parent of .bottom-cloud & .top-cloud*/
+}
+ 
+                         /* CENTERING AND ARRANGING CLOUD */
+
+.bottom-cloud {
+    position: absolute;
+    /*to take this out from html flow*/
+    bottom: 300px;
+    left: 250px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.skill-row{
+    width: 50%; /*div is a block element--> make it width to 50% of body's width i.e.,100%  */
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+/*                     float & clear                   */
+
+.skill-1-img{
+    width:25%;
+    float: left; /* used to float image on left & upcoming contents on same line as image */
+    margin-right: 30px;
+}
+
+.skill-2-img{
+    width:25%;
+    float: right; /*use "float" only for wrapping text around an element not for "positioning" */
+    margin-left: 30px;
+}
+
+/* ---------------------------------------------------------------------  */
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 12%;   
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    text-align:justify;
+   
+}
+
+p{
+    line-height: 2;
+}
+
+.horizontal-row{
+    border-style: none;
+    border-top-style: dotted;     /* (or) border: dotted #EAF6F6 6px; border-bottom: none;   */
+    border-width: 7px;
+    color: grey;
+    width:5%;
+    margin: 100px auto;
+    
+}
+
+.contact-msg{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #11999e;
+    margin: 10px 20px;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.copyright{
+    font-size: 75%;
+    color: #eaf6f6;
+    padding: 20px 0;
+}
+
+
+/* Button code made from css3buttongenerator.com  */
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+

@@ -1,0 +1,66 @@
+body{
+    margin-top: 30px;
+}
+
+.table1{
+    width: 100%;
+}   
+
+.table1, .th1, .td1{
+    border: 1px solid black; /* every cell in table has separate borders */
+
+
+    /* border-radius: 10px; */
+    /* To avoid double borders, use "border-collapse: collapse;"  */
+    /*border-radius and border-collapse not working simultaneously */
+    border-collapse: collapse;
+
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(255, 104, 222);
+    background-color:#96D4D4;
+    
+    /* border-spacing: 10px; (2px default) ---> space between cells, padding: 30px; ---> */
+
+}
+
+/* By default, "th" elements are bold and centered */
+
+
+/*----HTML tables can have different sizes for each column, row or the entire table 
+Use the style attribute with the width or height properties to specify the size of a table, row or column. 
+ COLUMN----->WIDTH, ROW----->HEIGHT check inline css in html file
+--------*/
+
+
+/* --COLSPAN ="2" & ROWSPAN = "3" (HTML attributes mentioned near td,th,tr) --- */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  
+.tr2:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+  
+.tr2>th:nth-child(even), .tr2>td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+.tr2:hover {
+    background-color: pink;
+}
+
+
+/*... COLGROUP(HTML tag) - The <colgroup> element is used to style specific columns of a table ...*/
+
+/* The <colgroup> tag must be a child of a <table> element and should be placed before any other table elements, like <thead>, <tr>, <td> etc., but after the <caption> element, if present.
+
+very limited selection of CSS properties that are allowed to be used in the colgroup--
+WIDTH, VISIBILITY, BACKGROUND, BORDER 
+*/
+
+
+
+

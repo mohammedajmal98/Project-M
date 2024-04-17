@@ -1,0 +1,60 @@
+body{
+    margin:0;
+}
+
+/* *****RELATIVE POSITIONING - relative to the element's previous position****  */
+
+.red, .blue, .yellow{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    left: 200px;
+}
+
+.blue{
+    background-color: blue;
+    position: relative;
+    right: 100px;
+
+}
+
+.yellow{
+    background-color: yellow;
+    position: relative;
+    right: 100px;
+}
+
+/* ******ABSOLUTE POSITIONING - Relative to parent (mostly, body element*****  */
+
+.green, .black, .violet{
+    height: 100px;
+    width: 100px;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+    
+}
+
+.black{
+    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    
+}
+
+.violet{
+    background-color: violet;
+    position: absolute;
+    
+}
