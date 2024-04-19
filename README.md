@@ -1,7 +1,7 @@
-# Demo
+# Codebase
 
-some description!
+Just adding my practice code here
 
-## Sub Header
+## Note
 
-Hiiii
+Let's Code...
